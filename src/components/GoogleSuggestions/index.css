@@ -1,0 +1,46 @@
+/* Write your CSS here */
+.web-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  padding: 20px;
+}
+.logo {
+  width: 50%;
+  margin-bottom: 30px;
+}
+.bottom-section {
+  width: 100%;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 10px;
+}
+.searchContainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.search-box {
+  border-width: 0;
+  outline: none;
+  align-self: center;
+  width: 100%;
+}
+.search {
+  align-self: center;
+  height: 20px;
+  margin-right: 5px;
+}
+.unodered-list {
+  padding-left: 0px;
+}
